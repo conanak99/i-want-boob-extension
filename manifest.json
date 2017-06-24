@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "I want boob gif",
+  "description": "This extension get a random boob gif for relaxing",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "logo.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "http://api.giphy.com/"
+  ]
+}
